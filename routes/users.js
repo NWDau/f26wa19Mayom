@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
     vTwo = vTwo - vOne;
   }
 
-  res.send(`Values: ${vOne} and $vTwo`);
+  res.send(`Values: ${vOne} and ${vTwo}`);
 });
 
 module.exports = router;
